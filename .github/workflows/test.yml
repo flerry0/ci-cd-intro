@@ -57,9 +57,9 @@ jobs:
       - name: Run Flake8
         run: |
           echo "Führe Flake8 aus..."
-          flake8 app.py --max-line-length=100
+          flake8 app1.py --max-line-length=100
       
       - name: Run Pylint
         run: |
           echo "Führe Pylint aus..."
-          pylint app.py --fail-under=8.0
+          pylint app1.py --fail-under=8.0
