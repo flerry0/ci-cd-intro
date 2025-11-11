@@ -1,5 +1,5 @@
 import pytest
-from app import *
+from app1 import *
 
 
 def test_add():
